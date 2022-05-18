@@ -1,0 +1,31 @@
+#welcomePage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 500px;
+
+    h1 {
+        font-size: 44px;
+    }
+
+    p {
+        color: rgb(99, 99, 99);
+        font-size: small;
+    }
+    
+    a {
+        text-decoration: none;
+
+        .button {
+            color: white;
+            font-size: smaller;
+            padding: 5px 10px;
+            background-color: rgba(0, 182, 97, 0.493);
+            border: 1px solid black;
+            margin-top: 20px;
+        }
+    }
+}
